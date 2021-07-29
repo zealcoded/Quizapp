@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="image/zealcoded.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Quiz app</title>
+</head>
+<body class="body">
+    <!-- nav bar  -->
+    <ul class="nav bg-dark shadow">
+        <li class="nav-item">
+          <a class="nav-link text-white" href="#">Zealcoded</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Quiz Application</a>
+        </li>
+      </ul>
+    <div class="container">
+        <div class="card bg-dark mx-auto m-5 shadow">
+            <div class="conatiner_two">
+                <h1 class="text-center p-3" id="question">Questions</h1>
+                <ul class="p-5">
+                    <li><input type="radio"  name="radio" id="a" class="answer"> 
+                        <label id="answer_a">answer</label></li>
+                    <li><input type="radio"  name="radio" id="b" class="answer"> 
+                        <label id="answer_b">answer</label></li>
+                    <li><input type="radio" name="radio" id="c"  class="answer">
+                         <label id="answer_c">answer</label></li>
+                    <li><input type="radio" name="radio" id="d" class="answer"> 
+                        <label id="answer_d">answer</label></li >
+                </ul>
+            </div>
+            <!-- <button  value="sumbit"></button> -->
+            <input type="button" class="btn btn-block btn-light w-50  mx-auto button" value="Sumbit">
+        </div>
+    </div>    
+    <script src="app.js"></script>
+</body>
+</html>
